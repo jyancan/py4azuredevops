@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y python3-pip python3-dev && apt-get clea
 RUN mkdir /code
 WORKDIR /code
 ADD requirements.txt /code/
-RUN pip install -r requirements.txt
+RUN pip3 install -r requirements.txt
 ADD . /code/
 	
 EXPOSE 8000 2222
