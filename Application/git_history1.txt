@@ -1,0 +1,96 @@
+    1  aws
+    2  awscli
+    3  eksctl
+    4  it
+    5  git
+    6  git clone https://github.com/jyancan/python3dockered.git
+    7  git clone https://github.com/jyancan/python3dockered.git
+    8  https://github.com/jyancan/py4azuredevops.git
+    9  git clone https://github.com/jyancan/py4azuredevops.git
+   10  ls
+   11  cd py4azuredevops/
+   12  ls
+   13  cd ArmTemplates/
+   14  ls
+   15  cd ..
+   16  cd Application/
+   17  ls
+   18  vi Dockerfile 
+   19  git commit -m "sin comentarios"
+   20  cd ..
+   21  git init
+   22  git add .
+   23  git status
+   24  git commit - "se quito comentario"
+   25  git commit -m "se quito comentario"
+   26  git push master
+   27  git login
+   28  git add remote
+   29  git add remote LABEL maintainer="Azure App Service Container Images <appsvc-images@microsoft.com>"
+   30  git add remote https://github.com/jyancan/py4azuredevops.git
+   31  git remote add https://github.com/jyancan/py4azuredevops.git
+   32  git remote add -t https://github.com/jyancan/py4azuredevops.git
+   33  git remote add -m https://github.com/jyancan/py4azuredevops.git
+   34  git remote add --mirror https://github.com/jyancan/py4azuredevops.git
+   35  git remote add --fetch https://github.com/jyancan/py4azuredevops.git
+   36  git remote add -f https://github.com/jyancan/py4azuredevops.git
+   37  git remote add devops1 https://github.com/jyancan/py4azuredevops.git
+   38  git push master devops1
+   39  git push devops1 master
+   40  ls
+   41  cd Application/
+   42  ls
+   43  vi requirements.txt 
+   44  git commit -m "se actualizo version django"
+   45  cd ..
+   46  git commit -m "se actualizo version django"
+   47  git commit -m "se actualizo version django"
+   48  git add *
+   49  git commit -m "se actualizo version django"
+   50  git push devops1 master
+   51  git stash
+   52  git logs
+   53  git log
+   54  git log d37f6da363416d7cc7fde87ef5fb9b28245dc74a
+   55  cd Application/
+   56  vi requirements.txt 
+   57  cd ..
+   58  ls
+   59  cd ArmTemplates/
+   60  ls
+   61  cd ..
+   62  cd Application/
+   63  ls
+   64  d ..
+   65  cd ..
+   66  cd .github/
+   67  ls
+   68  cd workflows/
+   69  ls
+   70  vi devops-starter-workflow.yml 
+   71  cd ..
+   72  cd ..
+   73  git commit -m "se actualizo workflow devops"
+   74  git add *
+   75  git commit -m "se actualizo workflow devops"
+   76  git commit -m "se actualizo workflow devops"
+   77  git commit -a -m "se actualizo workflow devops"
+   78  git push devops1 master
+   79  cd Application/
+   80  vi Dockerfile 
+   81  vi requirements.txt 
+   82  ls
+   83  vi Dockerfile 
+   84  git status
+   85  git commit -m "se actualizo Dockerfile"
+   86  git add Dockerfile 
+   87  git commit -m "se actualizo Dockerfile"
+   88  git commit -a -m "se actualizo Dockerfile"
+   89  cd ..
+   90  git push devops1 master
+   91  cd Application/
+   92  vi Dockerfile 
+   93  git commit -a -m "se actualizo Dockerfile"
+   94  git push devops1 master
+   95  vi Dockerfile 
+   96  history > git_history1.txt
